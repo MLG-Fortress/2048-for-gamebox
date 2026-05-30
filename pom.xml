@@ -82,7 +82,7 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>me.nikl</groupId>
+            <groupId>com.github.MLG-Fortress</groupId>
             <artifactId>gamebox</artifactId>
             <version>${gamebox.version}</version>
             <scope>provided</scope>
