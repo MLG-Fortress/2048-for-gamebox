@@ -76,7 +76,7 @@ public class GameManager extends EasyManager {
 
     private void loadDefaultSurroundItemStack() {
         tofe.warn("invalid surroundItemStack... falling back to default");
-        surroundItemStack = ItemStackUtility.getItemStack("stained_glass_pane:15");
+        surroundItemStack = ItemStackUtility.getItemStack("BLACK_STAINED_GLASS_PANE");
         ItemMeta meta = surroundItemStack.getItemMeta();
         meta.setDisplayName(ChatColor.AQUA.toString());
         surroundItemStack.setItemMeta(meta);
